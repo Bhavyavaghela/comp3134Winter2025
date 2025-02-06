@@ -1,0 +1,5 @@
+1) bmwGroup.com - 104.94.220.164
+2) audi.com - 143.164.101.69
+3)chatgpt.com - 172.64.155.209
+4)nvidia.com - 34.194.97.138
+5)Netflix.com - 44.237.234.25

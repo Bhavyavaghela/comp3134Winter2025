@@ -1,0 +1,68 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap localhost
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-06 16:45 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000011s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 
+
+
+
+
+2)
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 3000 localhost
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-06 16:47 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000058s latency).
+Other addresses for localhost (not scanned): ::1
+
+PORT     STATE  SERVICE
+3000/tcp closed ppp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 
+
+3)
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 8080-8089  localhost
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-06 16:49 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000024s latency).
+Other addresses for localhost (not scanned): ::1
+
+PORT     STATE  SERVICE
+8080/tcp closed http-proxy
+8081/tcp closed blackice-icecap
+8082/tcp closed blackice-alerts
+8083/tcp closed us-srv
+8084/tcp closed unknown
+8085/tcp closed unknown
+8086/tcp closed d-s-n
+8087/tcp closed simplifymedia
+8088/tcp closed radan-http
+8089/tcp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 
+
+4)
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F localhost
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-06 16:50 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000070s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 

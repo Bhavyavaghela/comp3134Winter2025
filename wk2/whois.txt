@@ -1,0 +1,97 @@
+1) Domain: apple.com
+Registered On:
+1987-02-19
+Expires On:
+2026-02-20
+Updated On:
+2025-01-21
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+a.ns.apple.com
+b.ns.apple.com
+c.ns.apple.com
+d.ns.apple.com
+
+
+2) Domain:google.com
+Registered On:
+1997-09-15
+Expires On:
+2028-09-14
+Updated On:
+2019-09-09
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+
+3)Domain:asus.com
+Registered On:
+1995-10-25
+Expires On:
+2031-10-24
+Updated On:
+2025-01-06
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+Name Servers:
+ns-1039.awsdns-01.org
+ns-1875.awsdns-42.co.uk
+ns-337.awsdns-42.com
+ns-544.awsdns-04.net
+
+
+4)Domain:samsung.com
+Registered On:
+1994-11-29
+Expires On:
+2025-11-28
+Updated On:
+2021-06-12
+Status:
+client transfer prohibited
+client update prohibited
+Name Servers:
+dns-awskr1.samsung.com
+dns-gi1.samsung.com
+dnssm.samsung.com
+dnssm2.samsung.com
+dnsst.samsung.com
+dnsst2.samsung.com
+
+5) Domain:dell.com
+Registered On:
+1988-11-22
+Expires On:
+2025-11-21
+Updated On:
+2024-12-09
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+Name Servers:
+ns1ak.dell.com
+ns1ns.dell.com
+ns2ak.dell.com
+ns2ns.dell.com
+ns3ak.dell.com
+ns3ns.dell.com
